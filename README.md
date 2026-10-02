@@ -2,7 +2,7 @@
 
 Internal platform for managing robotics dataset requests.
 
-## Run locally (no Docker)
+## Run locally 
 
 PostgreSQL 17 is already running as the Windows service `postgresql-x64-17`. User **postgres**, password **love**.
 
