@@ -8,11 +8,6 @@ PostgreSQL 17 is already running as the Windows service `postgresql-x64-17`. Use
 
 **Create the database once** (PowerShell):
 
-```powershell
-$env:PGPASSWORD = "love"
-& "C:\Program Files\PostgreSQL\17\bin\psql.exe" -U postgres -h localhost -c "CREATE DATABASE dataset_desk;"
-```
-
 If it already exists, you can ignore the error and continue. `python scripts/run_local.py` will also create `dataset_desk` if it is missing.
 
 **Terminal 1 — API** (migrations, seed users + episodes, then uvicorn):
