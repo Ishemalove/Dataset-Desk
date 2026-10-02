@@ -62,6 +62,4 @@ pytest -v
 - **Auth:** JWT bearer tokens, bcrypt password hashing
 - **Export jobs:** assigning an episode queues a background export (2–5s, ~20% fail, up to 3 retries). Status is stored on the assignment row and shown on the request detail page.
 
-Connection string used by the app:
 
-`postgresql://postgres:love@localhost:5432/dataset_desk`
